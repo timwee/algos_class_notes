@@ -29,3 +29,91 @@ QSAT/QBF
 	- generalization of SAT, each term has a quantifier.
 
 ####################################################################################
+TSP
+--------------
+- visit all nodes and return minimally
+- O(n!), dynamic programming O(n^2 * 2^n)
+- compare to MST. MST just needs to connect all vertices. TSP needs a route.
+
+Heuristic Solutions
+--------------
+- there exists polynomial time algorithsm that are at most 2x of optimal route.
+
+
+TSP solvers
+--------------
+- https://developers.google.com/optimization/routing/tsp#solving-tsps-with-or-tools
+
+
+
+
+
+####################################################################################
+Hamiltonian Cycle
+-------------------
+- path that visits each vertex exactly once
+- compare to Eulerian cycle (visit every edge exactly once)
+	- eulerian easy to check - degree of each vertex is even and connected
+- graphs that hve hamiltonian cycles do not necessarily have eulerian cycles
+
+
+
+####################################################################################
+Longest path problem
+------------------
+- find a simple path from s to t that is at least b - longest path
+- find a simple path from s to t that is at most b - shortest path
+
+
+
+
+
+####################################################################################
+Integer Linear Programming
+------------------
+- https://en.wikipedia.org/wiki/Integer_programming
+- linear inequalities, require solution/variables to be integer values.
+
+Solvers
+---------
+- https://developers.google.com/optimization/lp/glop
+
+
+Reductions To ILP
+---------
+1. TSP
+2. Vertex Cover
+3. Set Packing
+4. Boolean satisfiability
+
+In practice
+-------------
+- Simplex
+- ellipsoid
+
+
+
+####################################################################################
+Independent Set Problem
+-------------------
+- given a graph and budget b, select subsets of the graph where each subset is at least size b, and each subset is not connected to any other nodes in a different subset
+
+
+
+
+
+####################################################################################
+
+
+
+
+
+
+
+####################################################################################
+
+
+
+
+
+####################################################################################
