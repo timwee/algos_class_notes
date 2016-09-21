@@ -19,7 +19,7 @@ SAT solvers
 - Empirical Study of the Anatomy of Modern SatSolvers http://www.cs.toronto.edu/~fbacchus/csc2512/Lectures/2013Readings/Skallah_Empirical_Study_SAT_Solvers.pdf
 - https://www.msoos.org/2016/03/memory-layout-of-clauses-in-minisat/
 - http://fmv.jku.at/lingeling/
-- 
+- https://www.aaai.org/Papers/JAIR/Vol32/JAIR-3214.pdf - SATzilla: Portfolio-based Algorithm Selection for SAT
 
 
 ####################################################################################
