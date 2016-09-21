@@ -1,0 +1,31 @@
+SAT
+---------------
+- https://en.wikipedia.org/wiki/Cook%E2%80%93Levin_theorem
+- https://en.wikipedia.org/wiki/Boolean_satisfiability_problem
+- hard combinatorial problems can be reduced to SAT
+- SAT can be reduced to 3-SAT
+	- recall 3-SAT is a restriction on SAT to have all clauses have exactly 3 terms
+
+
+Benchmarks
+----------------
+- http://www.cs.ubc.ca/~hoos/SATLIB/benchm.html
+- http://www.qbflib.org/
+
+
+SAT solvers
+--------------
+- https://www.quora.com/What-kind-of-algorithms-do-SAT-solvers-use
+- Empirical Study of the Anatomy of Modern SatSolvers http://www.cs.toronto.edu/~fbacchus/csc2512/Lectures/2013Readings/Skallah_Empirical_Study_SAT_Solvers.pdf
+- https://www.msoos.org/2016/03/memory-layout-of-clauses-in-minisat/
+- http://fmv.jku.at/lingeling/
+- 
+
+
+####################################################################################
+QSAT/QBF
+--------------
+- https://en.wikipedia.org/wiki/True_quantified_Boolean_formula
+	- generalization of SAT, each term has a quantifier.
+
+####################################################################################
