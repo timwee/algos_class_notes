@@ -1,4 +1,27 @@
 # python3
+
+
+"""
+ILP to SAT
+----------------
+
+Inputs
+-----------
+n - number of inequalities, m - number of variables.
+
+Limits
+-----------
+−100 ≤ 𝐴𝑖𝑗 ≤100; −1000000 ≤ 𝑏𝑖 ≤ 1000000.
+
+constraints
+--------------
+1. For each inequality, find all the combinations of non-zero coefficients that will satisfy that inequality, 
+	we call that set of combinations C_i (for inequality i), 
+	and the set of all combinations of non-zero coefficients as A_i.
+	We can encode the ineligible combinations D_i = A_i - C_i similar to the edge constraints in cleaning apartment/hamiltonian path.
+	
+"""
+
 n, m = list(map(int, stdin.readline().split()))
 A = []
 for i in range(n):
