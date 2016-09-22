@@ -50,9 +50,9 @@ and_over_i(
 
 --------------------------
 According to "Formalizing Dangerous SAT Encodings", Total, Onto, and Function clauses together are easy to solve, 
-whereas Total, 1-1, and Function clauses together are very hard.
+whereas Total, 1-1, and Function clauses together are very hard for solvers to solve efficiently.
 
-
+All of them together seems to be ok.
 """
 
 import sys
