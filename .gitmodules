@@ -1,3 +1,6 @@
 [submodule "or-tools"]
 	path = or-tools
 	url = git@github.com:google/or-tools.git
+[submodule "sat_solvers/pycosat"]
+	path = sat_solvers/pycosat
+	url = git@github.com:ContinuumIO/pycosat.git
